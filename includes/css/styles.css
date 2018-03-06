@@ -1,0 +1,125 @@
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+.navbar-brand img{
+
+   width: 160px;
+   height: 30px;
+   
+   
+}
+.navbar-fixed-top{
+   bottom: 650px;
+
+}
+#Search{
+   width: 200px;
+}
+.navbar-nav>li>a {
+    
+    color: black;
+    }
+
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#MyCarousel .item{
+   height: 600px;
+   /*width: 800px;   */
+}
+#slide1{
+   background: url(../../images/coorg2.jpg) top center no-repeat;
+   background-size: cover;
+}
+#slide2{
+   background: url(../../images/gokarna2.jpg) top center no-repeat;
+   background-size: cover;
+}
+#slide3{
+   background: url(../../images/ooty1.jpg) top center no-repeat;
+   background-size: cover;
+}
+#MyCarousel
+{
+   margin-top: 60px;
+   }
+.carousel-caption h4
+{
+   font-family: "combo",cursive;
+   font-size: 48px;
+   color: black;
+}
+.carousel-caption p
+{
+   font-family: "combo",cursive;
+   font-size: 36px;
+   color: black;
+}
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+.btn-default {
+    color: #fff;
+    background-color: #468847;
+    border-color: #468847;
+}
+.navbar {
+    
+    background-color: #3ec13e;
+    
+}
+
+.navbar-nav>.active>a, .navbar-nav>.active>a:hover, .navbar-nav>.active>a:focus {
+    color: rgba(0,0,0,0.9);
+    background-color: #409641;
+  }
+  footer {
+  background: #333;
+  color: #eee;
+  font-size: 11px;
+  padding: 20px;
+}
+.unstyled{
+  list-style: none;
+}
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}
+
+
